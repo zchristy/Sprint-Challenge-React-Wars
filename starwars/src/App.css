@@ -6,4 +6,10 @@
   text-shadow: 1px 1px 5px #443e3e;
   margin: 50px;
 }
+
+#audioBtn {
+  position: fixed;
+  top: 50px;
+  right: 150px;
+}
 /* write your parent styles in here for your App.js */
