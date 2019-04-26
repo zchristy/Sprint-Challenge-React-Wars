@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Pagnation.css';
+import './Pagination.css';
 
-class Pagnation extends Component {
+class Pagination extends Component {
 
   render() {
     const {starwarsChars, nextPage, previousPage} = this.props.state;
@@ -30,4 +30,4 @@ class Pagnation extends Component {
   }
 }
 
-export default Pagnation;
+export default Pagination;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Pagnation from './components/Pagnation';
+import Pagination from './components/Pagination';
 
 class App extends Component {
   constructor() {
@@ -80,7 +80,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <Pagnation
+        <Pagination
             onClick={this.click}
             state={this.state}
             next={this.next}
