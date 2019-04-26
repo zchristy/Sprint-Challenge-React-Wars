@@ -19,6 +19,11 @@
   -webkit-box-shadow: 6px 6px 11px -2px rgba(0,0,0,0.28);
   -moz-box-shadow: 6px 6px 11px -2px rgba(0,0,0,0.28);
   box-shadow: 6px 6px 11px -2px rgba(0,0,0,0.28);
+  transition: all .3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 ul {
@@ -30,6 +35,7 @@ ul {
 
 li {
   margin-bottom: 20px;
+  text-shadow: 1px 1px 5px #ffffff;
 }
 
 .button-container {
@@ -44,6 +50,7 @@ li {
   margin: 0 5px;
   cursor: pointer;
   background-color: #F3F3F34d;
+  text-shadow: 1px 1px 5px #ffffff;
   -webkit-box-shadow: 6px 6px 11px -2px rgba(0,0,0,0.28);
   -moz-box-shadow: 6px 6px 11px -2px rgba(0,0,0,0.28);
   box-shadow: 6px 6px 11px -2px rgba(0,0,0,0.28);

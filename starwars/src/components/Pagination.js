@@ -19,12 +19,12 @@ class Pagination extends Component {
     return (
 
       <div className='container'>
-        <div className="character-container">
-          {renderChars}
-        </div>
         <div className="button-container">
           <p className="btn" name='prevbutton' onClick={this.props.onClick}>PREV</p>
           <p className="btn" name='nextbutton' onClick={this.props.onClick}>Next</p>
+        </div>
+        <div className="character-container">
+          {renderChars}
         </div>
       </div>
     );
