@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+  React Js is a JS library built to help developers structure a web page's UI into more Dynamic blocks of code. 
+
 - [ ] What does it mean to _think_ in react?
+
+  To think in React you are breaking your UI down into blocks, each block will be a component
 
 - [ ] Describe state.
 
+  State is data with in the app that can change.
+
 - [ ] Describe props.
+
+  Props are the life line to the app, its the data passed through the app.
 
 ## Project Set Up
 
