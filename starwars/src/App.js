@@ -18,7 +18,9 @@ class App extends Component {
 
   componentDidMount() {
     this.getCharacters('https://swapi.co/api/people/');
+
   }
+
 
   getCharacters = URL => {
     // feel free to research what this code is doing.
@@ -85,18 +87,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Sound
-            url="https://ia801203.us.archive.org/13/items/13BinarySunsetAlternate/01%20Main%20Title%20and%20the%20Attack%20on%20the%20Jakku%20Village.mp3"
+        <h1 className="Header">React Wars</h1>
+        <Sound
+            url="song.mp3"
+            autoLoad={true}
             playStatus={Sound.status.PLAYING}
             onLoading={this.handleSongLoading}
             onPlaying={this.handleSongPlaying}
-            onResume={this.handleSongPlaying}
-            onBufferChange={this.handleSongPlaying}
             onFinishedPlaying={this.handleSongFinishedPlaying}
-            autoLoad={true}
             volume={50}
             />
-        <h1 className="Header">React Wars</h1>
         <Pagination
             onClick={this.click}
             state={this.state}
