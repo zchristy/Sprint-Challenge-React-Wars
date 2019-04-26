@@ -10,6 +10,7 @@ class Pagination extends Component {
       return <ul className='card' key={char.name}>
                 <li>{char.name}</li>
                 <li>Birth Year: {char.birth_year}</li>
+                <li>Height: {char.height}cm</li>
             </ul>
 
     });

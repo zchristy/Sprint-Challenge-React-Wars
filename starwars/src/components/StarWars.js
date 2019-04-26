@@ -4,7 +4,9 @@ import './StarWars.css';
 class StarWars extends Component {
 
   render() {
-    const char = this.props.characters.map(char => {
+    const { characters } = this.props;
+
+    const char = characters.map(char => {
       return <ul className='card' key={char.name}>
                 <li >{char.name}</li>
             </ul>
